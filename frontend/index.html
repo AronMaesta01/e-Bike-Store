@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E-BIKE STORE | High Performance & Luxury</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+ 
+  <!-- ══════════════════════════════════════ -->
+  <!--               HEADER                  -->
+  <!-- ══════════════════════════════════════ -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <div class="nav__logo">
+        <span class="logo-icon">◆</span>
+        <span class="logo-text">E-BIKE<span class="logo-accent">STORE</span></span>
+      </div>
+ 
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#inicio" class="nav__link">Início</a></li>
+        <li><a href="#destaques" class="nav__link">Destaques</a></li>
+        <li><a href="#catalogo" class="nav__link">Catálogo</a></li>
+        <li><a href="#sobre" class="nav__link">Sobre</a></li>
+        <li><a href="#contato" class="nav__link">Contato</a></li>
+      </ul>
+ 
+      <div class="nav__actions">
+        <a href="#catalogo" class="btn btn--neon">Explorar Modelos</a>
+        <button class="nav__toggle" id="navToggle" aria-label="Abrir menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+ 
+  <main>
+ 
+    <!-- ══════════════════════════════════════ -->
+    <!--               HERO                    -->
+    <!-- ══════════════════════════════════════ -->
+    <section class="hero" id="inicio">
+      <div class="hero__bg">
+        <div class="hero__grid"></div>
+        <div class="hero__glow hero__glow--blue"></div>
+        <div class="hero__glow hero__glow--green"></div>
+      </div>
+ 
+      <div class="container hero__content">
+        <div class="hero__text">
+          <p class="hero__overline">PERFORMANCE EXCLUSIVA & ENGENHARIA DE PRECISÃO</p>
+          <h1 class="hero__title">
+            ENGENHARIA EXTREMA.<br />
+            LUXO IMPECÁVEL.<br />
+            <span class="text-neon">DESEMPENHO PURO.</span>
+          </h1>
+          <p class="hero__subtitle">
+            Desenvolvidas para quem exige o extraordinário. Unimos potência implacável, construção em fibra de carbono e aerodinâmica de competição.
+          </p>
+          <div class="hero__actions">
+            <a href="#catalogo" class="btn btn--neon btn--lg">Configurar Agora</a>
+            <a href="#sobre" class="btn btn--ghost btn--lg">Conhecer a Marca</a>
+          </div>
+ 
+          <div class="hero__stats">
+            <div class="stat">
+              <span class="stat__value">150KM</span>
+              <span class="stat__label">Autonomia máx.</span>
+            </div>
+            <div class="stat__divider"></div>
+            <div class="stat">
+              <span class="stat__value">45KM/H</span>
+              <span class="stat__label">Velocidade topo</span>
+            </div>
+            <div class="stat__divider"></div>
+            <div class="stat">
+              <span class="stat__value">1000W</span>
+              <span class="stat__label">Potência motor</span>
+            </div>
+          </div>
+        </div>
+ 
+        <div class="hero__visual">
+          <div class="hero__img-wrap">
+            <img
+              src="img/imagem.png"
+              alt="E-Bike Premium"
+              class="hero__img"
+            />
+            <div class="hero__img-glow"></div>
+          </div>
+          <div class="hero__badge hero__badge--1">
+            <span class="badge-icon">◆</span>
+            <div>
+              <strong>850Wh</strong>
+              <small>Bateria Samsung</small>
+            </div>
+          </div>
+          <div class="hero__badge hero__badge--2">
+            <span class="badge-icon">▲</span>
+            <div>
+              <strong>Carga Rápida</strong>
+              <small>3h — 100%</small>
+            </div>
+          </div>
+        </div>
+      </div>
+ 
+      <div class="hero__scroll">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+ 
+    <!-- ══════════════════════════════════════ -->
+    <!--             DESTAQUES                 -->
+    <!-- ══════════════════════════════════════ -->
+    <section class="features" id="destaques">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-overline">TECNOLOGIA DA PISTA PARA A RUA</p>
+          <h2 class="section-title">DINÂMICA DE CONDUÇÃO <span class="text-neon">SUPERIOR</span></h2>
+        </div>
+ 
+        <div class="features__grid">
+          <div class="feature-card">
+            <div class="feature-card__icon">⧉</div>
+            <h3>MOTOR BLDC 1000W</h3>
+            <p>Motores sem escovas de alta eficiência com torque instantâneo de até 90Nm para qualquer terreno.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-card__icon">⧃</div>
+            <h3>BATERIA PREMIUM</h3>
+            <p>Células Samsung 21700 com BMS inteligente. Autonomia real de até 150km por carga.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-card__icon">◈</div>
+            <h3>CONECTIVIDADE TOTAL</h3>
+            <p>App nativo iOS e Android com rastreamento GPS, telemetria em tempo real e bloqueio remoto.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-card__icon">🛡</div>
+            <h3>GARANTIA 3 ANOS</h3>
+            <p>Cobertura completa de motor, bateria e eletrônica. Suporte técnico especializado 24/7.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-card__icon">⚙</div>
+            <h3>DESIGN EXCLUSIVO</h3>
+            <p>Quadros em liga de alumínio aeronáutico 6061-T6. Cada detalhe pensado para a perfeição.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-card__icon">⌬</div>
+            <h3>ASSISTÊNCIA TÉCNICA</h3>
+            <p>Rede de mais de 200 centros autorizados em todo o Brasil para manutenção e upgrades.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+ 
+    <!-- ══════════════════════════════════════ -->
+    <!--        BUSCA E FILTROS                -->
+    <!-- ══════════════════════════════════════ -->
+    <section class="catalog-header" id="catalogo">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-overline">SELECIONE SEU MODELO</p>
+          <h2 class="section-title">CONFIGURADOR <span class="text-neon">DE ELITE</span></h2>
+        </div>
+ 
+        <div class="search-bar">
+          <div class="search-input-wrap">
+            <span class="search-icon">⌕</span>
+            <input
+              type="text"
+              id="searchInput"
+              class="search-input"
+              placeholder="PROCURAR MODELO..."
+              oninput="filtrarBikes()"
+            />
+          </div>
+          <select class="filter-select" id="filtroCategoria" onchange="filtrarBikes()">
+            <option value="">TODAS AS CATEGORIAS</option>
+            <option value="Mountain Bike">MOUNTAIN BIKE</option>
+            <option value="Urbana">URBANA / ROAD</option>
+            <option value="Speed">HIGH PERFORMANCE</option>
+          </select>
+          <select class="filter-select" id="filtroPreco" onchange="filtrarBikes()">
+            <option value="">QUALQUER PREÇO</option>
+            <option value="0-15000">Até R$ 15.000</option>
+            <option value="15000-25000">R$ 15.000 – R$ 25.000</option>
+            <option value="25000-99999">Acima de R$ 25.000</option>
+          </select>
+        </div>
+ 
+        <!-- Botão de abrir formulário de cadastro -->
+        <div class="catalog-actions">
+          <button class="btn btn--neon" onclick="abrirModal('modal-cadastro')">
+            + Cadastrar Novo Modelo
+          </button>
+        </div>
+      </div>
+    </section>
+ 
+    <!-- ══════════════════════════════════════ -->
+    <!--          LISTAGEM DE BIKES            -->
+    <!-- ══════════════════════════════════════ -->
+    <section class="catalog-grid-section">
+      <div class="container">
+        <div class="bikes-grid" id="bikesGrid">
+          <!-- Cards gerados via JavaScript -->
+        </div>
+        <p class="empty-message" id="emptyMessage" style="display:none;">
+          Nenhum modelo encontrado com esses filtros.
+        </p>
+      </div>
+    </section>
+ 
+    <!-- ══════════════════════════════════════ -->
+    <!--           SEÇÃO SOBRE                 -->
+    <!-- ══════════════════════════════════════ -->
+    <section class="about" id="sobre">
+      <div class="container about__inner">
+        <div class="about__visual">
+          <img
+            src="https://images.unsplash.com/photo-1571068316344-75bc76f77890?w=600&q=80"
+            alt="Sobre a E-Bike Store"
+            class="about__img"
+          />
+          <div class="about__img-frame"></div>
+        </div>
+        <div class="about__text">
+          <p class="section-overline">PATRIMÔNIO DE EXCELÊNCIA</p>
+          <h2 class="section-title">DESIGN REBELDE. <span class="text-neon">ALMA ESPORTIVA.</span></h2>
+          <p>
+            Fundada em 2019, a E-Bike Store nasceu da paixão por tecnologia e sustentabilidade. Somos a referência brasileira em bicicletas elétricas de alto padrão — unindo performance de competição com design futurista.
+          </p>
+          <p>
+            Cada bike em nosso catálogo passa por testes rigorosos de qualidade antes de chegar até você. Nossa equipe de engenheiros especializados garante que cada modelo entregue exatamente o que promete.
+          </p>
+          <div class="about__numbers">
+            <div class="about__num">
+              <strong>5.000+</strong>
+              <small>Bikes vendidas</small>
+            </div>
+            <div class="about__num">
+              <strong>4.9★</strong>
+              <small>Avaliação média</small>
+            </div>
+            <div class="about__num">
+              <strong>200+</strong>
+              <small>Cidades atendidas</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+ 
+    <!-- ══════════════════════════════════════ -->
+    <!--           CONTATO / CTA               -->
+    <!-- ══════════════════════════════════════ -->
+    <section class="cta" id="contato">
+      <div class="cta__bg">
+        <div class="hero__glow hero__glow--blue" style="opacity:0.3"></div>
+      </div>
+      <div class="container cta__content">
+        <h2 class="cta__title">PRONTO PARA EXPERIMENTAR O EXTRAORDINÁRIO?</h2>
+        <p class="cta__sub">Entre em contato com nossa equipe exclusiva e configure seu modelo sob medida.</p>
+        <div class="cta__actions">
+          <a href="https://wa.me/5511999999999" class="btn btn--neon btn--lg">WhatsApp</a>
+          <a href="mailto:contato@ebikestore.com.br" class="btn btn--ghost btn--lg">E-mail</a>
+        </div>
+      </div>
+    </section>
+ 
+  </main>
+ 
+  <!-- ══════════════════════════════════════ -->
+  <!--              FOOTER                   -->
+  <!-- ══════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="logo-icon">◆</span>
+        <span class="logo-text">E-BIKE<span class="logo-accent">STORE</span></span>
+        <p>A fusão perfeita entre alta performance e luxo atemporal. Criando o amanhã sobre duas rodas.</p>
+      </div>
+      <div class="footer__links">
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#destaques">Destaques</a></li>
+          <li><a href="#catalogo">Catálogo</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+        </ul>
+      </div>
+      <div class="footer__links">
+        <h4>Categorias</h4>
+        <ul>
+          <li><a href="#">Mountain Bike</a></li>
+          <li><a href="#">Road Bike</a></li>
+          <li><a href="#">Urban</a></li>
+          <li><a href="#">Fat Bike</a></li>
+        </ul>
+      </div>
+      <div class="footer__contact">
+        <h4>Contato</h4>
+        <p>📍 SÃO PAULO, SP — BRASIL</p>
+        <p>📞 +55 (11) 9 9999-9999</p>
+        <p>✉️ CONTATO@EBIKESTORE.COM.BR</p>
+        <div class="footer__social">
+          <a href="#" class="social-btn">LN</a>
+          <a href="#" class="social-btn">IG</a>
+          <a href="#" class="social-btn">YT</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>© 2024 E-Bike Store. Todos os direitos reservados. Feito com ◆ e muita dedicação.</p>
+    </div>
+  </footer>
+ 
+  <!-- ══════════════════════════════════════ -->
+  <!--       MODAL — CADASTRAR BIKE          -->
+  <!-- ══════════════════════════════════════ -->
+  <div class="modal-overlay" id="modal-cadastro" onclick="fecharModalFora(event, 'modal-cadastro')">
+    <div class="modal">
+      <button class="modal__close" onclick="fecharModal('modal-cadastro')">✕</button>
+      <h2 class="modal__title">CADASTRAR NOVO MODELO</h2>
+      <div class="form-grid" id="formCadastro">
+        <div class="form-group">
+          <label>Nome</label>
+          <input type="text" id="c-nome" placeholder="Ex: Tesla X Pro" />
+        </div>
+        <div class="form-group">
+          <label>Marca</label>
+          <input type="text" id="c-marca" placeholder="Ex: Tesla" />
+        </div>
+        <div class="form-group">
+          <label>Preço (R$)</label>
+          <input type="number" id="c-preco" placeholder="Ex: 29999" />
+        </div>
+        <div class="form-group">
+          <label>Bateria</label>
+          <input type="text" id="c-bateria" placeholder="Ex: 850Wh" />
+        </div>
+        <div class="form-group">
+          <label>Autonomia</label>
+          <input type="text" id="c-autonomia" placeholder="Ex: 150km" />
+        </div>
+        <div class="form-group">
+          <label>Estoque</label>
+          <input type="number" id="c-estoque" placeholder="Ex: 10" />
+        </div>
+        <div class="form-group form-group--full">
+          <label>Categoria</label>
+          <select id="c-categoria">
+            <option value="1">Mountain Bike</option>
+            <option value="2">Urbana</option>
+            <option value="3">Speed</option>
+          </select>
+        </div>
+        <div class="form-group form-group--full">
+          <label>URL da Imagem</label>
+          <input type="text" id="c-imagem" placeholder="https://..." />
+        </div>
+        <div class="form-group form-group--full">
+          <label>Descrição</label>
+          <textarea id="c-descricao" rows="3" placeholder="Descreva o modelo..."></textarea>
+        </div>
+        <div class="form-group form-group--full form-actions">
+          <button class="btn btn--ghost" onclick="fecharModal('modal-cadastro')">Cancelar</button>
+          <button class="btn btn--neon" onclick="cadastrarBike()">Cadastrar Bike</button>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- ══════════════════════════════════════ -->
+  <!--        MODAL — EDITAR BIKE            -->
+  <!-- ══════════════════════════════════════ -->
+  <div class="modal-overlay" id="modal-editar" onclick="fecharModalFora(event, 'modal-editar')">
+    <div class="modal">
+      <button class="modal__close" onclick="fecharModal('modal-editar')">✕</button>
+      <h2 class="modal__title">EDITAR DETALHES DO MODELO</h2>
+      <input type="hidden" id="e-id" />
+      <div class="form-grid">
+        <div class="form-group">
+          <label>Nome</label>
+          <input type="text" id="e-nome" />
+        </div>
+        <div class="form-group">
+          <label>Marca</label>
+          <input type="text" id="e-marca" />
+        </div>
+        <div class="form-group">
+          <label>Preço (R$)</label>
+          <input type="number" id="e-preco" />
+        </div>
+        <div class="form-group">
+          <label>Bateria</label>
+          <input type="text" id="e-bateria" />
+        </div>
+        <div class="form-group">
+          <label>Autonomia</label>
+          <input type="text" id="e-autonomia" />
+        </div>
+        <div class="form-group">
+          <label>Estoque</label>
+          <input type="number" id="e-estoque" />
+        </div>
+        <div class="form-group form-group--full">
+          <label>Categoria</label>
+          <select id="e-categoria">
+            <option value="1">Mountain Bike</option>
+            <option value="2">Urbana</option>
+            <option value="3">Speed</option>
+          </select>
+        </div>
+        <div class="form-group form-group--full">
+          <label>URL da Imagem</label>
+          <input type="text" id="e-imagem" />
+        </div>
+        <div class="form-group form-group--full">
+          <label>Descrição</label>
+          <textarea id="e-descricao" rows="3"></textarea>
+        </div>
+        <div class="form-group form-group--full form-actions">
+          <button class="btn btn--ghost" onclick="fecharModal('modal-editar')">Cancelar</button>
+          <button class="btn btn--neon" onclick="salvarEdicao()">Salvar Alterações</button>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- ══════════════════════════════════════ -->
+  <!--       MODAL — CONFIRMAR EXCLUSÃO      -->
+  <!-- ══════════════════════════════════════ -->
+  <div class="modal-overlay" id="modal-excluir" onclick="fecharModalFora(event, 'modal-excluir')">
+    <div class="modal modal--sm">
+      <button class="modal__close" onclick="fecharModal('modal-excluir')">✕</button>
+      <div class="modal-confirm">
+        <div class="modal-confirm__icon">⚠️</div>
+        <h2>CONFIRMAR EXCLUSÃO</h2>
+        <p>Deseja realmente excluir <strong id="excluirNome"></strong>? Esta ação não pode ser desfeita.</p>
+        <input type="hidden" id="excluirId" />
+        <div class="form-actions">
+          <button class="btn btn--ghost" onclick="fecharModal('modal-excluir')">Cancelar</button>
+          <button class="btn btn--danger" onclick="confirmarExclusao()">Excluir</button>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- Toast de notificação -->
+  <div class="toast" id="toast"></div>
+ 
+  <script>
+    /* ══════════════════════════════════════════════
+       DADOS - Carregados da API REST
+    ══════════════════════════════════════════════ */
+    let bikes = [];
+
+    /* ══════════════════════════════════════════════
+       UTILITÁRIOS
+    ══════════════════════════════════════════════ */
+    const API_BASE = "http://localhost:3000"; // URL base da futura API REST
+ 
+    function formatarPreco(valor) {
+      return new Intl.NumberFormat("pt-BR", {
+        style: "currency",
+        currency: "BRL",
+        minimumFractionDigits: 0
+      }).format(valor);
+    }
+ 
+    function mostrarToast(msg, tipo = "sucesso") {
+      const toast = document.getElementById("toast");
+      toast.textContent = msg;
+      toast.className = `toast toast--${tipo} toast--show`;
+      setTimeout(() => toast.classList.remove("toast--show"), 3500);
+    }
+ 
+    /* ══════════════════════════════════════════════
+       FUNÇÕES DE MODAL
+    ══════════════════════════════════════════════ */
+    function abrirModal(id) {
+      document.getElementById(id).classList.add("modal-overlay--active");
+      document.body.style.overflow = "hidden";
+    }
+ 
+    function fecharModal(id) {
+      document.getElementById(id).classList.remove("modal-overlay--active");
+      document.body.style.overflow = "";
+    }
+ 
+    function fecharModalFora(event, id) {
+      if (event.target.id === id) fecharModal(id);
+    }
+ 
+    /* ══════════════════════════════════════════════
+       CRUD — CARREGAR BIKES
+       Futuro: GET /bikes
+    ══════════════════════════════════════════════ */
+    async function carregarBikes() {
+      try {
+        const resp = await fetch(`${API_BASE}/bikes`);
+        if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+        bikes = await resp.json();
+      } catch (err) {
+        console.error("Erro ao carregar bikes da API:", err);
+        mostrarToast("Erro ao carregar catálogo", "erro");
+      }
+      renderizarBikes(bikes);
+    }
+ 
+    /* ══════════════════════════════════════════════
+       RENDERIZAR CARDS DE BIKES
+    ══════════════════════════════════════════════ */
+    function renderizarBikes(lista) {
+      const grid = document.getElementById("bikesGrid");
+      const empty = document.getElementById("emptyMessage");
+ 
+      if (!lista || lista.length === 0) {
+        grid.innerHTML = "";
+        empty.style.display = "block";
+        return;
+      }
+      empty.style.display = "none";
+ 
+      grid.innerHTML = lista.map(bike => `
+        <article class="bike-card" data-id="${bike.id}">
+          <div class="bike-card__img-wrap">
+            <img
+              src="${bike.imagem}"
+              alt="${bike.nome}"
+              class="bike-card__img"
+              onerror="this.src='https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500&q=80'"
+            />
+            <span class="bike-card__category">${bike.categoria}</span>
+            <div class="bike-card__overlay"></div>
+          </div>
+          <div class="bike-card__body">
+            <div class="bike-card__header">
+              <div>
+                <h3 class="bike-card__name">${bike.nome}</h3>
+                <p class="bike-card__brand">${bike.marca}</p>
+              </div>
+              <span class="bike-card__stock ${bike.estoque > 5 ? 'stock--ok' : bike.estoque > 0 ? 'stock--low' : 'stock--out'}">
+                ${bike.estoque > 0 ? `${bike.estoque} un.` : "Esgotado"}
+              </span>
+            </div>
+ 
+            <div class="bike-card__specs">
+              <div class="spec">
+                <span class="spec__icon">Bateria:</span>
+                <span>${bike.bateria}</span>
+              </div>
+              <div class="spec">
+                <span class="spec__icon">Autonomia:</span>
+                <span>${bike.autonomia}</span>
+              </div>
+            </div>
+ 
+            <p class="bike-card__desc">${bike.descricao || ""}</p>
+ 
+            <div class="bike-card__footer">
+              <span class="bike-card__price">${formatarPreco(bike.preco)}</span>
+              <div class="bike-card__actions">
+                <button class="btn-icon btn-icon--edit" onclick="abrirEditar(${bike.id})" title="Editar">Editar</button>
+                <button class="btn-icon btn-icon--delete" onclick="abrirExcluir(${bike.id}, '${bike.nome}')" title="Excluir">Excluir</button>
+              </div>
+            </div>
+          </div>
+        </article>
+      `).join("");
+    }
+ 
+    /* ══════════════════════════════════════════════
+       CRUD — CADASTRAR BIKE
+       Futuro: POST /bikes
+    ══════════════════════════════════════════════ */
+    async function cadastrarBike() {
+      const nome      = document.getElementById("c-nome").value.trim();
+      const marca     = document.getElementById("c-marca").value.trim();
+      const preco     = parseFloat(document.getElementById("c-preco").value);
+      const bateria   = document.getElementById("c-bateria").value.trim();
+      const autonomia = document.getElementById("c-autonomia").value.trim();
+      const estoque   = parseInt(document.getElementById("c-estoque").value, 10) || 0;
+      const categoriaId = parseInt(document.getElementById("c-categoria").value, 10) || null;
+      const imagem    = document.getElementById("c-imagem").value.trim();
+      const descricao = document.getElementById("c-descricao").value.trim();
+ 
+      if (!nome || !marca || isNaN(preco)) {
+        mostrarToast("Preencha os campos obrigatórios: nome, marca e preço.", "erro");
+        return;
+      }
+ 
+      const novaBike = {
+        nome,
+        marca,
+        preco,
+        bateria,
+        autonomia,
+        estoque,
+        categoria_id: categoriaId,
+        imagem,
+        descricao
+      };
+ 
+      try {
+        const resp = await fetch(`${API_BASE}/bikes`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(novaBike)
+        });
+        if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+        await carregarBikes();
+        fecharModal("modal-cadastro");
+        document.getElementById("formCadastro").querySelectorAll("input, textarea, select").forEach(el => el.value = "");
+        mostrarToast(`✅ "${nome}" cadastrada com sucesso!`);
+      } catch (err) {
+        console.error("Erro ao cadastrar bike:", err);
+        mostrarToast("Erro ao cadastrar no banco. Tente novamente.", "erro");
+      }
+    }
+ 
+    /* ══════════════════════════════════════════════
+       CRUD — ABRIR MODAL DE EDIÇÃO
+    ══════════════════════════════════════════════ */
+    function abrirEditar(id) {
+      const bike = bikes.find(b => b.id === id);
+      if (!bike) return;
+      document.getElementById("e-id").value        = bike.id;
+      document.getElementById("e-nome").value      = bike.nome;
+      document.getElementById("e-marca").value     = bike.marca;
+      document.getElementById("e-preco").value     = bike.preco;
+      document.getElementById("e-bateria").value   = bike.bateria;
+      document.getElementById("e-autonomia").value = bike.autonomia;
+      document.getElementById("e-estoque").value   = bike.estoque;
+      document.getElementById("e-categoria").value = bike.categoria_id || "";
+      document.getElementById("e-imagem").value    = bike.imagem;
+      document.getElementById("e-descricao").value = bike.descricao;
+      abrirModal("modal-editar");
+    }
+ 
+    /* ══════════════════════════════════════════════
+       CRUD — SALVAR EDIÇÃO
+       Futuro: PUT /bikes/:id
+    ══════════════════════════════════════════════ */
+    async function salvarEdicao() {
+      const id        = parseInt(document.getElementById("e-id").value, 10);
+      const nome      = document.getElementById("e-nome").value.trim();
+      const marca     = document.getElementById("e-marca").value.trim();
+      const preco     = parseFloat(document.getElementById("e-preco").value);
+      const bateria   = document.getElementById("e-bateria").value.trim();
+      const autonomia = document.getElementById("e-autonomia").value.trim();
+      const estoque   = parseInt(document.getElementById("e-estoque").value, 10) || 0;
+      const categoriaId = parseInt(document.getElementById("e-categoria").value, 10) || null;
+      const imagem    = document.getElementById("e-imagem").value.trim();
+      const descricao = document.getElementById("e-descricao").value.trim();
+ 
+      if (!nome || !marca || isNaN(preco)) {
+        mostrarToast("Preencha os campos obrigatórios.", "erro");
+        return;
+      }
+ 
+      const dadosAtualizados = {
+        nome,
+        marca,
+        preco,
+        bateria,
+        autonomia,
+        estoque,
+        categoria_id: categoriaId,
+        imagem,
+        descricao
+      };
+ 
+      try {
+        const resp = await fetch(`${API_BASE}/bikes/${id}`, {
+          method: "PUT",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(dadosAtualizados)
+        });
+        if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+        await carregarBikes();
+        fecharModal("modal-editar");
+        mostrarToast(`Editar "${nome}" atualizada com sucesso!`);
+      } catch (err) {
+        console.error("Erro ao atualizar bike:", err);
+        mostrarToast("Erro ao atualizar no banco. Tente novamente.", "erro");
+      }
+    }
+ 
+    /* ══════════════════════════════════════════════
+       CRUD — ABRIR MODAL DE EXCLUSÃO
+    ══════════════════════════════════════════════ */
+    function abrirExcluir(id, nome) {
+      document.getElementById("excluirId").value   = id;
+      document.getElementById("excluirNome").textContent = nome;
+      abrirModal("modal-excluir");
+    }
+ 
+    /* ══════════════════════════════════════════════
+       CRUD — CONFIRMAR EXCLUSÃO
+       Futuro: DELETE /bikes/:id
+    ══════════════════════════════════════════════ */
+    async function confirmarExclusao() {
+      const id   = parseInt(document.getElementById("excluirId").value, 10);
+      const nome = document.getElementById("excluirNome").textContent;
+ 
+      try {
+        const resp = await fetch(`${API_BASE}/bikes/${id}`, { method: "DELETE" });
+        if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+        await carregarBikes();
+        fecharModal("modal-excluir");
+        mostrarToast(`Remover "${nome}" excluída.`, "erro");
+      } catch (err) {
+        console.error("Erro ao excluir bike:", err);
+        mostrarToast("Erro ao excluir no banco. Tente novamente.", "erro");
+      }
+    }
+ 
+    /* ══════════════════════════════════════════════
+       FILTRAR BIKES (busca + filtros)
+    ══════════════════════════════════════════════ */
+    function filtrarBikes() {
+      const query      = document.getElementById("searchInput").value.toLowerCase();
+      const categoria  = document.getElementById("filtroCategoria").value;
+      const faixaPreco = document.getElementById("filtroPreco").value;
+ 
+      let resultado = bikes.filter(bike => {
+        const matchBusca = bike.nome.toLowerCase().includes(query) ||
+                           bike.marca.toLowerCase().includes(query) ||
+                           bike.categoria.toLowerCase().includes(query);
+        const matchCat   = !categoria || bike.categoria === categoria;
+ 
+        let matchPreco = true;
+        if (faixaPreco) {
+          const [min, max] = faixaPreco.split("-").map(Number);
+          matchPreco = bike.preco >= min && bike.preco <= max;
+        }
+        return matchBusca && matchCat && matchPreco;
+      });
+ 
+      renderizarBikes(resultado);
+    }
+ 
+    /* ══════════════════════════════════════════════
+       HEADER — SCROLL E MENU MOBILE
+    ══════════════════════════════════════════════ */
+    window.addEventListener("scroll", () => {
+      const header = document.getElementById("header");
+      header.classList.toggle("header--scrolled", window.scrollY > 50);
+    });
+ 
+    document.getElementById("navToggle").addEventListener("click", () => {
+      document.getElementById("navLinks").classList.toggle("nav__links--open");
+    });
+ 
+    // Fechar menu mobile ao clicar em link
+    document.querySelectorAll(".nav__link").forEach(link => {
+      link.addEventListener("click", () => {
+        document.getElementById("navLinks").classList.remove("nav__links--open");
+      });
+    });
+ 
+    /* ══════════════════════════════════════════════
+       INICIALIZAÇÃO
+    ══════════════════════════════════════════════ */
+    document.addEventListener("DOMContentLoaded", () => {
+      carregarBikes();
+      window.addEventListener("focus", carregarBikes);
+      setInterval(carregarBikes, 15000);
+    });
+  </script>
+ 
+</body>
+</html>
